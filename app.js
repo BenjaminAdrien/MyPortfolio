@@ -11,24 +11,24 @@ submitted = false;
 
 function ContactOnMail() {
   submitBtn.addEventListener('click', () =>{
-    successTxt.forEach(txt => {if (txt.textContent.includes('Message')) {
+    // successTxt.forEach(txt => {if (txt.textContent.includes('Message')) {
       window.name = "true";
-      // sessionStorage.setItem('sub', submitted);
-      sections.forEach((section) => {
-        section.classList.remove('active')
-      })
-      document.getElementById('contact').classList.add('active');
-      sectBtn.forEach((btn) => {
-        btn.classList.remove('active-btn')
-      })
-      sectBtn[4].className += ' active-btn';
-    }})
+    //   // sessionStorage.setItem('sub', submitted);
+    //   sections.forEach((section) => {
+    //     section.classList.remove('active')
+    //   })
+    //   document.getElementById('contact').classList.add('active');
+    //   sectBtn.forEach((btn) => {
+    //     btn.classList.remove('active-btn')
+    //   })
+    //   sectBtn[4].className += ' active-btn';
+    // }})
   } )
 }
 
 function PageTransitions() {
   console.log(window.name);
-  if (window.name == "true") {
+  if (window.name == "true" && successTxt[0].textContent.includes('Message')) {
     sections.forEach((section) => {
       section.classList.remove('active')
     })
@@ -36,7 +36,7 @@ function PageTransitions() {
     sectBtn.forEach((btn) => {
       btn.classList.remove('active-btn')
     })
-    sectBtn[4].className += ' active-btn';
+    sectBtn[3].className += ' active-btn';
   }
   //Button click active class
   for (let i = 0; i < sectBtn.length; i++) {
