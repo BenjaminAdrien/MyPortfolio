@@ -27,6 +27,6 @@ Par ailleurs, lors de l'exécution du script PHP, la page se rafraichissait et r
 ### Envoi de mail depuis le formulaire
 Pour la partie contact de mon Portfolio, j'ai voulu permettre l'envoi d'email depuis le formulaire. Après quelques recherches, le faire en PHP semblait la réponse la plus commune, et au vu des compétences recherchée sur le marché du travail, la plus adaptée. <br> 
 J'ai, dans un premier temps, recherché comment executer un script PHP puis, comme je cherchais juste à permettre l'envoi de mail, je me suis concentré le fonctionnement de la fonction mail() afin de la mettre en place dans mon projet. Localement, tout s'exécute correctement, cependant l'envoi de mail n'est toujours pas 
-fonctionnel depuis la mise en ligne via Heroku. <br>
-
+fonctionnel depuis la mise en ligne via Heroku. <br><br>
+Je suis actuellement en train de trouver une solution afin de régler le problème et rendre ce Portfolio complètement opérationnel.
 
