@@ -740,6 +740,14 @@ section {
   transition: var(--transition);
 }
 
+.portfolios .portfolio-item .hover-item.double-item {
+  row-gap: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .portfolios .portfolio-item .hover-item h3 {
   font-size: 1.5rem;
   color: #ffffff;
@@ -1555,4 +1563,4 @@ section {
     margin-top: 1.5rem;
   }
 }
-/*# sourceMappingURL=styles2.css.map */
+/*# sourceMappingURL=styles.css.map */

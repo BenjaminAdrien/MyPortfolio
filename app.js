@@ -28,7 +28,7 @@ function ContactOnMail() {
 
 function PageTransitions() {
   console.log(window.name);
-  if (window.name == "true" && successTxt[0].textContent.includes('Message')) {
+  if (window.name == "true" && (successTxt[0].textContent.includes('Message') || successTxt[1].textContent.includes('Message'))) {
     sections.forEach((section) => {
       section.classList.remove('active')
     })

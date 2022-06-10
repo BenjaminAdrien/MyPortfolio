@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="styles/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -161,6 +161,32 @@
             </p>
           </div>
         </div>
+        <div class="portfolio-item">
+          <div class="image">
+            <img src="img/locvac_img.png" alt="">
+          </div>
+          <div class="hover-item double-item">
+            <h3>Project Source : </h3>
+            <div class="icons">
+              <a href="https://github.com/BenjaminAdrien/LocationVacances" class="icon" target='__blank'>
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://benjaminadrien.github.io/LocationVacances" class="icon" target='__blank'>
+                <i class="fas fa-play-circle"></i>
+              </a>
+            </div>
+          </div>
+          <div class="blog-text">
+            <h4>
+              Site de Location de Vacances (finition)
+            </h4>
+            <p>
+              Un site web de location pour les vacances estivales
+              réalisé en <strong>HTML</strong>, <strong>SASS</strong>
+              et <strong>JavaScript</strong>.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
     <section class="section sec4 contact" id='contact'>
@@ -271,7 +297,7 @@
     <i class="fas fa-adjust"></i>
   </div>
 
-  <script src="../app.js"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
