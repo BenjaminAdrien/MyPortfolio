@@ -86,6 +86,9 @@
           <div class="progress-bar">
             <p class="prog-title">java</p>
           </div>
+          <div class="progress-bar">
+            <p class="prog-title">PHP</p>
+          </div>
         </div>
       </div>
       <h4 class="stat-title">Mes Expériences</h4>
